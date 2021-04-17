@@ -16,7 +16,7 @@ fi
   # for each file - do ex 21
 
 # find all unique directories containing files with given extension
-files=$(find . -name "*.$fileExtension" -type f -printf "%h\n" | sort -u)
+files=$(find . -name "*.$fileExtension" -type f -printf "%h\n" | sort -d -v)
 
 for dir in $files
 do
