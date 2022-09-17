@@ -1,5 +1,5 @@
 #!/bin/bash
-# Sapir Hender 208414573
+
 filePath=$1
 fileExtension=$2
 userWord=$3
