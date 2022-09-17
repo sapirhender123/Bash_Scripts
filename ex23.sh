@@ -1,5 +1,4 @@
 #!/bin/bash
-# Sapir Hender 208414573
 
 # Check the args
 if [ "$#" -eq 0 ]; then
